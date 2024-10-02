@@ -9,6 +9,16 @@
             FillArray(A);
         }
 
+
+        /* 
+        *******************************************************
+        nazwa funkcji: FillArray
+        parametry wejściowe: bool[] array - przechowuje wartosci true i false
+        wartość zwracana: brak
+        informacje: Funkcja wypełnia tablicę wartościami true, następnie szuka liczb pierwszych z przediału 2 do n wykorzystując algorytm sita Eratostenesa. Pod koniec wypisuje w konsoli liczby pierwsze z separatorem.
+        autor: Paweł Marcisz
+        *******************************************************
+        */
         private static void FillArray(bool[] array)
         {
             for(int i = 0; i < array.Length; i++)

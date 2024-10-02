@@ -26,6 +26,14 @@
                     }
                 }
             }
+
+            for(int i = 2; i <= array.Length - 1; i++)
+            {
+                if (array[i] == true)
+                {
+                    Console.Write(i+ ";");
+                }
+            }
         }
     }
 }
